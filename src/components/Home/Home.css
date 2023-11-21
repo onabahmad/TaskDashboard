@@ -1,0 +1,47 @@
+.App__Container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.notStarted__Container,
+.inProgress__Container,
+.completed__Container {
+  width: 30%;
+  background-color: rgb(255, 255, 255);
+}
+.Add_button {
+  border: none;
+  background-color: white;
+  font-size: 18px;
+  color: #d4d4d4;
+  cursor: pointer;
+}
+.status_cardNumber_addCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.status_cardNumber {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+.addCard_options {
+  display: flex;
+  gap: 10px;
+}
+.notStarted_label {
+  background-color: #ff8ba0;
+  padding: 0px 9px 0px 9px;
+  border-radius: 3px;
+}
+.inProgress_label {
+  background-color: #fee7aa;
+  padding: 0px 9px 0px 9px;
+  border-radius: 3px;
+}
+.completed_label {
+  background-color: #9fd4a3;
+  padding: 0px 9px 0px 9px;
+  border-radius: 3px;
+}

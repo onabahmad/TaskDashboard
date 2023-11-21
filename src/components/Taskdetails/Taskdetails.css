@@ -1,0 +1,71 @@
+.task-details-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+.card-number {
+  font-size: 14px;
+  color: #555;
+}
+
+.label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.input,
+.textarea,
+.select {
+  width: 100%;
+  padding: 8px;
+  border: solid 1px #ececec;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0 3px 3px -2px rgba(0, 0, 0, 0.1);
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.save-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+}
+.delete-button {
+  background-color: #d0312d;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.save-button:hover {
+  background-color: #45a049;
+}
+
+.delete-button:hover {
+  background-color: #e3242b;
+}
+
+.select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  color: #333;
+}
